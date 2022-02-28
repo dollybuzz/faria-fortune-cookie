@@ -1,0 +1,24 @@
+{
+  "name": "fortune-cookie",
+  "version": "1.0.0",
+  "description": "practice webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dollybuzz/faria-fortune-cookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dollybuzz/faria-fortune-cookie/issues"
+  },
+  "homepage": "https://github.com/dollybuzz/faria-fortune-cookie#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fortune-cookie": "^0.0.1",
+    "mysql": "^2.18.1"
+  }
+}
