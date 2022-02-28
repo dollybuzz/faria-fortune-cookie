@@ -23,7 +23,7 @@ conn.connect((err)=> {
 //routes
 //root route
 app.get("/", function(req,res){
-    res.send("it works!");
+    res.render("main.ejs");
 });
 
 //server listener
