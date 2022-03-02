@@ -2,6 +2,8 @@ const express = require("express");
 const mysql = require('mysql');
 
 const app = express();
+app.set('view engine', 'ejs');
+app.use(express.static("public"));
 
 //Create database connection
 const conn = mysql.createConnection({
